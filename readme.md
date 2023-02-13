@@ -11,6 +11,8 @@ Building on top of edge unfolding, vertices with non-zero gaussian curvature are
 |------------|------------------|
 |![input](data/lilium_model.png) | ![output](data/lilium_flattened.jpg)|
 
+The piecewise developable surface input mesh is obtained from [in-depth assignment on Gauss Thinning](https://github.com/jonaskordt/Gauss-Thinning) for the Algorithmic Folding Lecture 2022.
+
 Algorithmic folding course - Developable surface
 =======
 
