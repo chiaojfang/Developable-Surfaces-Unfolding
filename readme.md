@@ -1,4 +1,9 @@
-# AF-Developable-surface
+# Unfolding Developable Surfaces
+In-depth Assignment for Algorithmic Folding Lecture @ HPI
+
+Within the jupyter notebook [unfold_developable_surfaces.ipynb](https://github.com/chiaojfang/Developable-Surfaces-Unfolding/blob/master/unfold_developable_surfaces.ipynb), a piecewise developable surface can be segmented and unfolded into separated flat pieces.
+
+Building on top of edge unfolding, vertices with non-zero gaussian curvature are identified as cuts and edges on the dual graph of the mesh is updated accordingly. The unfolding would then be performed by traversing each component of the graph with breadth-first search.
 
 Algorithmic folding course - Developable surface
 =======
