@@ -6,7 +6,10 @@ Within the jupyter notebook [unfold_developable_surfaces.ipynb](https://github.c
 Building on top of edge unfolding, vertices with non-zero gaussian curvature are identified as cuts and edges on the dual graph of the mesh is updated accordingly. The unfolding would then be performed by traversing each component of the graph with breadth-first search.
 
 ## Demo
-![input](data/lilium_model.png) ![output](data/lilium_flattened.jpg)
+
+| Input Mesh | Flattened Result |
+|------------|------------------|
+|![input](data/lilium_model.png) | ![output](data/lilium_flattened.jpg)|
 
 Algorithmic folding course - Developable surface
 =======
